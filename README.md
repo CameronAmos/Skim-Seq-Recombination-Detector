@@ -8,12 +8,17 @@ If a recombiantion cannot be found between two high-confident regions, a second 
 using a large sliding window, its size based on the proximity of more confident recombination breakpoints.
 It is highly configurable, and works with high accuracy on skim-seq data only 0.028x in coverage.
 
-Input file example containing the chromosome, position, and if it was the Reference or Alternative allele.\n
-chr1A_TA299   323292  P2\n
-chr1A_TA299   323424  P2\n
-chr1A_TA299   323528  P2\n
-chr1A_TA299   323867  P1\n
-...    ... ...\n
+Input file example containing the chromosome, position, and if it was the Reference or Alternative allele.
+
+chr1A_TA299   323292  P2
+
+chr1A_TA299   323424  P2
+
+chr1A_TA299   323528  P2
+
+chr1A_TA299   323867  P1
+
+...    ... ...
 
 Output file 1 example of the xy data, containing the chromosome, marker index, and roaming score (useful for plotting the function)
 
